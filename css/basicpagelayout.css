@@ -9,7 +9,9 @@ h1{
     color: #05386B;
     margin: 0;
 }
-
+nav{
+    margin: 0px;
+}
 ul{
     border-top: 1px #05386B solid;
     list-style-type: none;
