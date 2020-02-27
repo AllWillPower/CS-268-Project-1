@@ -1,8 +1,8 @@
 body{
     margin: 0px;
     font-family: sans-serif;
-    color: #05386B;
-    background-color: forestgreen;
+    color: #EDF5E1;
+    background-color: #5CDB95;
 }
 h1{
     padding: 10px;
@@ -12,12 +12,10 @@ h1{
 ul{
     background-color: #05386B;
     padding-left: 0;
-    border-top: 1px black solid;
-    border-bottom: 1px black solid;
     list-style-type: none;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin: 0px;
 }
 li a{
@@ -27,4 +25,7 @@ li a{
     text-align: center;
     margin: 0;
     text-decoration: none;
+}
+li a:hover{
+    background-color: grey;
 }
