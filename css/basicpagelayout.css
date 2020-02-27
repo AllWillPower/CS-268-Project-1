@@ -20,8 +20,11 @@ ul{
     justify-content: space-evenly;
     margin: 0px;
 }
-li{
+li a{
+    display: block;
+    color: #EDF5E1;
     padding: 10px 30px;
     text-align: center;
     margin: 0;
+    text-decoration: none;
 }
