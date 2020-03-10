@@ -1,16 +1,27 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Joel Van Haaften's Website</title>
-        <link rel="stylesheet" href="css/basicpagelayout.css">
-        <link rel="icon" href="images/favicon.ico">
-    </head>
-    
-    <body>
+
+<head>
+    <title>Joel Van Haaften's Website</title>
+    <link rel="stylesheet" href="css/basicpagelayout.css">
+    <link rel="stylesheet" href="css/skills.css">
+    <link rel="icon" href="images/favicon.ico">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+
+<body>
+    <header>
         <h1>
             Joel Van Haaften's Website
         </h1>
-        <nav>
+        <div id="menu-button">
+            <svg viewBox="0 0 100 80" width="30" height="30">
+                <rect fill="white" width="100" height="15"></rect>
+                <rect fill="white" y="30" width="100" height="15"></rect>
+                <rect fill="white" y="60" width="100" height="15"></rect>
+            </svg>
+        </div>
+        <nav id="navigation">
             <ul>
                 <li>
                     <a href="index.html">Homepage</a>
@@ -19,7 +30,7 @@
                     <a href="images.html">Images</a>
                 </li>
                 <li>
-                    <a href="skills.html">Skills & Experience</a>
+                    <a href="skills.html">Experience</a>
                 </li>
                 <li>
                     <a href="favorites.html">Favorites</a>
@@ -29,19 +40,37 @@
                 </li>
             </ul>
         </nav>
-        <div>
-            <h2>
-                Haumerson's Pond Project
-            </h2>
-            <ul>
-                Pre-Construction
-                <li></li>
-                <li></li>
-                Post-Construction
-                <li>Event Organizer</li>
-                <li></li>
-            
-            </ul>
+    </header>
+    <main>
+        <div class="container">
+            <div class="project">
+                <h2>
+                    Haumerson's Pond
+                </h2>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li>Event Organizer</li>
+                    <li></li>
+    
+                </ul>
+            </div>
+            <div class="project">
+                <h2>
+                    Fort Atkinson School District Substitute
+                </h2>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    
+                    <li>Event Organizer</li>
+                    <li></li>
+    
+                </ul>
+            </div>
         </div>
-    </body>
+    </main>
+    <script src="js/hamburger.js"></script>
+</body>
+
 </html>

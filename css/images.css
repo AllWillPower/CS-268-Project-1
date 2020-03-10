@@ -14,7 +14,6 @@
     width: 960px;
     flex-grow: 1;
     position: relative;
-    /* width: auto; */
     height: 600px;
 }
 
@@ -75,3 +74,10 @@ body {
     16.666%  { opacity: 0; }
     100% { opacity: 0; }
   }
+
+@media (max-width: 800px){
+    #chest{
+        background-color: #5CDB95;
+        box-shadow: none;
+    }
+}

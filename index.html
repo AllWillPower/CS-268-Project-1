@@ -5,41 +5,53 @@
         <link rel="stylesheet" href="css/basicpagelayout.css">
         <link rel="stylesheet" href="css/homepage.css">
         <link rel="icon" href="images/favicon.ico">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
     </head>
-    <!--Breakpoint: Hamburger button & place content in vertical column-->
     <body>
-        <h1>
-            Joel Van Haaften's Website
-        </h1>
-        <nav>
-            <ul>
-                <li>
-                    <a href="index.html">Homepage</a>
-                </li>
-                <li>
-                    <a href="images.html">Images</a>
-                </li>
-                <li>
-                    <a href="skills.html">Skills & Experience</a>
-                </li>
-                <li>
-                    <a href="favorites.html">Favorites</a>
-                </li>
-                <li>
-                    <a href="relations.html">Relations</a>
-                </li>
-            </ul>
-        </nav>
-        <div id="center">
-            <img id="headshot" src="images/homepage.jpg" alt="Joel Van Haaften, who is the cite creators dad, shown playing Scrabble">
-            <div id="text">
-                <h2>
-                    Biography
-                </h2>
-                <p>
-                    Joel Van Haaften is an expert in a wide variety of skills.  If you're looking for someone who's proficient in woodworking and mechanics, you've found him.  If you're looking for someone who can speak English, French, and Sign Language, you've found him.  If you're looking for a great teacher, parent, or even magician, well he can do all that too.  From this website you can learn all about who is Joel Van Haaften as well as the people around him.
-                </p>
+        <header>
+            <h1>
+                Joel Van Haaften's Website
+            </h1>
+            <div id="menu-button">
+                <svg viewBox="0 0 100 80" width="30" height="30">
+                    <rect fill="white" width="100" height="15"></rect>
+                    <rect fill="white" y="30" width="100" height="15"></rect>
+                    <rect fill="white" y="60" width="100" height="15"></rect>
+                </svg>
             </div>
-        </div>
+            <nav id="navigation">
+                <ul>
+                    <li>
+                        <a href="index.html">Homepage</a>
+                    </li>
+                    <li>
+                        <a href="images.html">Images</a>
+                    </li>
+                    <li>
+                        <a href="skills.html">Experience</a>
+                    </li>
+                    <li>
+                        <a href="favorites.html">Favorites</a>
+                    </li>
+                    <li>
+                        <a href="relations.html">Relations</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div id="center">
+                <img id="headshot" src="images/homepage.jpg" alt="Joel Van Haaften, who is the cite creators dad, shown playing Scrabble">
+                <div id="text">
+                    <h2>
+                        Biography
+                    </h2>
+                    <p>
+                        Joel Van Haaften is an expert in a wide variety of skills.  If you're looking for someone who's proficient in woodworking and mechanics, you've found him.  If you're looking for someone who can speak English, French, and Sign Language, you've found him.  If you're looking for a great teacher, parent, or even magician, well he can do all that too.  From this website you can learn all about who is Joel Van Haaften as well as the people around him.
+                    </p>
+                </div>
+            </div>
+        </main>
+        <script src="js/hamburger.js"></script>
     </body>
 </html>
