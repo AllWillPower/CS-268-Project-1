@@ -4,6 +4,11 @@ body{
     background-color: #5CDB95;
     font-family: sans-serif;
 }
+
+main{
+    margin: 8px;
+    font-family: 'Rubik', sans-serif;
+}
 h1{
     padding: 10px;
     margin: 0px;
