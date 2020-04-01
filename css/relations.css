@@ -1,0 +1,49 @@
+.profile{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+#buttons{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 150px;
+    margin-right: 300px;
+    margin-left: 50px;
+}
+
+.labelbuttongroup{
+    display: flex;
+    flex-direction: row;
+}
+img{
+    object-fit: contain;
+    max-width: 400px;
+}
+
+#body{
+    display: flex;
+    flex-direction: row;
+   
+}
+
+@media (max-width: 650px){
+    #buttons{
+        flex-direction: row;
+    }
+    #body{
+        flex-direction: column;
+    }
+    .labelbuttongroup{
+        margin: 10px;
+    }
+}
+
+@media (max-width: 900px) {
+    #buttons{
+        margin-right: 125px;
+    }
+    .labelbuttongroup{
+        flex-direction: column;
+    }
+}
